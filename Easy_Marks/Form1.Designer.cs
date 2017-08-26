@@ -64,7 +64,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -140,7 +139,6 @@
             // 
             // panelStudents
             // 
-            this.panelStudents.Controls.Add(this.label2);
             this.panelStudents.Controls.Add(this.label9);
             this.panelStudents.Controls.Add(this.comboBox2);
             this.panelStudents.Controls.Add(this.groupBox2);
@@ -459,15 +457,6 @@
             this.label1.Text = "Standard";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(378, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "label2";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -537,7 +526,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
 
     }
 }
