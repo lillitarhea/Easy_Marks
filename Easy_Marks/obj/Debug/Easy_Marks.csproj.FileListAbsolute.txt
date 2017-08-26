@@ -1,0 +1,9 @@
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\bin\Debug\Easy_Marks.exe.config
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\bin\Debug\Easy_Marks.exe
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\bin\Debug\Easy_Marks.pdb
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.csprojResolveAssemblyReference.cache
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.Form1.resources
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.Properties.Resources.resources
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.csproj.GenerateResource.Cache
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.exe
+c:\users\leediya\documents\visual studio 2013\Projects\Easy_Marks\Easy_Marks\obj\Debug\Easy_Marks.pdb
