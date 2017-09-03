@@ -39,14 +39,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.panelNew = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panelEdit = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -56,6 +48,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.panelNew = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtGr_No = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelSubject = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -64,13 +63,14 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.drpRollNo = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panelStudents.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.panelNew.SuspendLayout();
             this.panelEdit.SuspendLayout();
+            this.panelNew.SuspendLayout();
             this.panelSubject.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -211,80 +211,6 @@
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
-            // panelNew
-            // 
-            this.panelNew.Controls.Add(this.button1);
-            this.panelNew.Controls.Add(this.textBox3);
-            this.panelNew.Controls.Add(this.textBox2);
-            this.panelNew.Controls.Add(this.textBox1);
-            this.panelNew.Controls.Add(this.label8);
-            this.panelNew.Controls.Add(this.label5);
-            this.panelNew.Controls.Add(this.label7);
-            this.panelNew.Location = new System.Drawing.Point(26, 105);
-            this.panelNew.Name = "panelNew";
-            this.panelNew.Size = new System.Drawing.Size(524, 193);
-            this.panelNew.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(217, 160);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 33);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Add Student";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(110, 97);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(385, 20);
-            this.textBox3.TabIndex = 9;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(393, 51);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(110, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(41, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 17);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Name :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(321, 51);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 17);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Roll No. :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(41, 51);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 17);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "GR No. :";
-            // 
             // panelEdit
             // 
             this.panelEdit.Controls.Add(this.button3);
@@ -370,6 +296,74 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(60, 21);
             this.comboBox3.TabIndex = 1;
+            // 
+            // panelNew
+            // 
+            this.panelNew.Controls.Add(this.drpRollNo);
+            this.panelNew.Controls.Add(this.button1);
+            this.panelNew.Controls.Add(this.txtName);
+            this.panelNew.Controls.Add(this.txtGr_No);
+            this.panelNew.Controls.Add(this.label8);
+            this.panelNew.Controls.Add(this.label5);
+            this.panelNew.Controls.Add(this.label7);
+            this.panelNew.Location = new System.Drawing.Point(26, 105);
+            this.panelNew.Name = "panelNew";
+            this.panelNew.Size = new System.Drawing.Size(524, 193);
+            this.panelNew.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(213, 136);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 33);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Add Student";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(110, 97);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(385, 20);
+            this.txtName.TabIndex = 9;
+            // 
+            // txtGr_No
+            // 
+            this.txtGr_No.Location = new System.Drawing.Point(110, 48);
+            this.txtGr_No.Name = "txtGr_No";
+            this.txtGr_No.Size = new System.Drawing.Size(100, 20);
+            this.txtGr_No.TabIndex = 7;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(41, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 17);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "Name :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(321, 51);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 17);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Roll No. :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(41, 51);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(63, 17);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "GR No. :";
             // 
             // panelSubject
             // 
@@ -457,6 +451,25 @@
             this.label1.Text = "Standard";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
+            // drpRollNo
+            // 
+            this.drpRollNo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.drpRollNo.FormattingEnabled = true;
+            this.drpRollNo.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"});
+            this.drpRollNo.Location = new System.Drawing.Point(393, 48);
+            this.drpRollNo.Name = "drpRollNo";
+            this.drpRollNo.Size = new System.Drawing.Size(44, 21);
+            this.drpRollNo.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,10 +488,10 @@
             this.panelStudents.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.panelNew.ResumeLayout(false);
-            this.panelNew.PerformLayout();
             this.panelEdit.ResumeLayout(false);
             this.panelEdit.PerformLayout();
+            this.panelNew.ResumeLayout(false);
+            this.panelNew.PerformLayout();
             this.panelSubject.ResumeLayout(false);
             this.panelSubject.PerformLayout();
             this.tabPage1.ResumeLayout(false);
@@ -507,9 +520,8 @@
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Panel panelNew;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtGr_No;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
@@ -526,6 +538,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox drpRollNo;
 
     }
 }

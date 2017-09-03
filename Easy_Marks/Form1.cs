@@ -12,9 +12,12 @@ namespace Easy_Marks
 {
     public partial class Form1 : Form
     {
+        DataHandler dh = new DataHandler();
         public Form1()
         {
             InitializeComponent();
+          
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -72,6 +75,20 @@ namespace Easy_Marks
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int grno=Convert.ToInt32(txtGr_No.Text.ToString());
+            int rollno = Convert.ToInt32(drpRollNo.SelectedItem.ToString());
+           String name = txtName.Text.ToString();
+            
+            dh.Insert_student(grno,rollno,name);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
